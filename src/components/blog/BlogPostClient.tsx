@@ -393,9 +393,6 @@ export default function BlogPostClient({
                     </div>
                   )}
                   <div>
-                    <span className="block text-[10px] uppercase tracking-wider text-gray-500">
-                      Edited by
-                    </span>
                     <div className="flex items-center gap-2">
                       <span className="text-white font-medium text-sm">
                         {post.editor.name}
@@ -418,6 +415,7 @@ export default function BlogPostClient({
                         </a>
                       )}
                     </div>
+                    <span className="text-xs text-gray-500">Editor</span>
                   </div>
                 </div>
               )}
