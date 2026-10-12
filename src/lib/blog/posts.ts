@@ -26,6 +26,7 @@ import type { BlogPost, BlogCategory } from "./types";
 //   category    (required) — One of the BlogCategory values
 //   tags        (required) — Array of tag strings
 //   author      (required) — Object with name, role, image?, linkedin?, github?
+//   editor      (optional) — Object with name, image?, linkedin?; shown as "Edited by" in the byline
 //   publishedAt (required) — ISO date string
 //   coverImage  (optional) — Path to cover image in /public
 //   featured    (optional) — Show in featured section
@@ -82,6 +83,13 @@ function parsePost(filename: string): BlogPost | null {
       instagram: data.author.instagram,
       github: data.author.github,
     },
+    editor: data.editor?.name
+      ? {
+          name: data.editor.name,
+          image: data.editor.image,
+          linkedin: data.editor.linkedin,
+        }
+      : undefined,
     publishedAt: data.publishedAt,
     updatedAt: data.updatedAt,
     category: data.category as BlogCategory,

@@ -261,6 +261,11 @@ author:
 # OPTIONAL FIELDS
 # ═══════════════════════════════════════════════
 
+editor:                                      # Optional — shown as "Edited by" next to the author
+  name: "Editor Name"
+  image: "/team/editor-photo.png"            # Optional
+  linkedin: "https://linkedin.com/in/editor" # Optional
+
 coverImage: "/blog/my-cover.jpg"             # Cover image — put the file in /public/blog/
 featured: true                               # Show in the "Featured" section on /blog
 pinned: true                                 # Pin to the top of the blog listing

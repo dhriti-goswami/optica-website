@@ -7,6 +7,12 @@ export interface BlogAuthor {
   github?: string;
 }
 
+export interface BlogEditor {
+  name: string;
+  image?: string;
+  linkedin?: string;
+}
+
 export interface BlogPost {
   slug: string;
   title: string;
@@ -14,6 +20,7 @@ export interface BlogPost {
   content: string; // Raw markdown/MDX content (serialized to MDX at page level)
   coverImage?: string;
   author: BlogAuthor;
+  editor?: BlogEditor; // Optional "Edited by" credit shown in the byline
   publishedAt: string; // ISO date string
   updatedAt?: string;
   category: BlogCategory;
