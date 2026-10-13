@@ -83,10 +83,10 @@ const coreTeam: TeamMember[] = [
 const departmentHeads: TeamMember[] = [
   // Content and Documentation - 2 heads
   {
-    name: "Prashasti",
+    name: "Dhriti Goswami",
     role: "Content and Documentation",
-    image: "/team/prashasti.jpg",
-    email: "prashasti.bvcoe@gmail.com",
+    image: "/team/dhriti.jpg",
+    linkedin: "https://www.linkedin.com/in/dhriti-goswami-a5b489381",
   },
   {
     name: "Arya Bhardwaj",
@@ -177,10 +177,9 @@ const departmentHeads: TeamMember[] = [
   },
   // Event Management - 2 heads
   {
-    name: "Dhriti Goswami",
+    name: "Vansh Tyagi",
     role: "Event Management",
-    image: "/team/dhriti.jpg",
-    linkedin: "https://www.linkedin.com/in/dhriti-goswami-a5b489381",
+    image: "/team/vansh.png",
   },
   {
     name: "Ananya Suman",
