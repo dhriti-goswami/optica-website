@@ -58,6 +58,14 @@ const contentMaintainers: Maintainer[] = [
     linkedin: "https://www.linkedin.com/in/yashika-kaushik-401850319/",
     instagram: "https://www.instagram.com/_yashika_kaushik/",
   },
+  {
+    name: "Arya Bhardwaj",
+    role: "Content & Documentation",
+    title: "Documentation Contributor",
+    image: "/team/arya.jpg",
+    linkedin: "https://www.linkedin.com/in/arya-bhardwaj-438368381",
+    instagram: "https://www.instagram.com/awryaaa._",
+  },
 ];
 
 const blogMaintainer: Maintainer = {
