@@ -188,6 +188,14 @@ const departmentHeads: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/ananya-suman",
     instagram: "https://www.instagram.com/ananya._suman._",
   },
+  // Video Editing - 1 head
+  {
+    name: "Vibhu Maheshwari",
+    role: "Video Editing",
+    image: "/team/vibhu.jpg",
+    linkedin: "https://www.linkedin.com/in/vibhu-maheshwari-ab218838b/",
+    instagram: "https://www.instagram.com/vibhu_maheshwariii/",
+  },
 ];
 
 const roleColors: Record<string, string> = {
@@ -203,6 +211,7 @@ const roleColors: Record<string, string> = {
   "Social Media and Publicity": "from-pink-400 to-purple-400",
   Technical: "from-orange-400 to-orange-600",
   "Event Management": "from-rose-400 to-pink-400",
+  "Video Editing": "from-indigo-400 to-purple-500",
 };
 
 // Helper function to shuffle an array (Fisher-Yates shuffle)
